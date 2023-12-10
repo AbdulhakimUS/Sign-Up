@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+<style>
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0 0 0 100px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    img{
+        width: 650px;
+        height: 663px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 50px 0 0 50px;
+    }
+    .input{
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 9px 75px;
+        font-size: 17px;
+    }
+    .btn{
+        width: 45%;
+        background-color: green;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 25px;
+        color: white;
+    }
+    .btn-signup{
+        width: 200px;
+        border: 1px solid black;
+        padding: 8px 16px;
+        border-radius: 10px;
+        font-size: 15px;
+        color: black;
+        background-color: #fff;
+        width: 288px;
+    }
+    .a-checkbox{
+        color: black;
+    }
+    .a-account{
+        text-decoration: none;
+    }
+
+    @media screen and (max-width:376px) {
+        img{
+            display: none;
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0 0 0 20px;
+            margin-top: 20px;
+            font-size: 13px;
+        }
+        .input{
+            border: 1px solid black;
+            border-radius: 15px;
+            padding: 9px 35px;
+            font-size: 17px;
+        }
+        .btn{
+            width: 80%;
+            background-color: green;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 20px;
+            color: white;
+        }
+        .btn-signup{
+            width: 200px;
+            border: 1px solid black;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 13px;
+            color: black;
+            background-color: #fff;
+            width: 140px;
+        }
+    }
+</style>
+<body>
+
+    <div class="container">
+        <div class="left">
+            <h1>Get Started Now</h1>
+            <br>
+            <h3>Name</h3>
+            <input type="text" placeholder="Enter Your Name" class="input">
+            <br>
+            <h3>Email Address</h3>
+            <input type="email" placeholder="Enter Your Email" class="input">
+            <br>
+            <h3>Password</h3>
+            <input type="password" placeholder="Name" class="input">
+            <br><br>
+
+        <input type="checkbox">I agree to the <a href="#" class="a-checkbox">terms & policy</a>
+        <br><br><br>
+        <button class="btn">
+            Sign Up
+        </button><br><br>
+
+    <button class="btn-signup">Sign In With Google</button>
+    <button class="btn-signup">Sign In With Apple</button>
+    <br>
+    <p>Have an Account? <a href="#" class="a-account">Sign In</a></p>
+    <img src="https://scontent.fbhk1-4.fna.fbcdn.net/v/t1.6435-9/37900058_10155960127784272_112876602441859072_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9b3078&_nc_ohc=wyKkf-LASpIAX8q7g83&_nc_ht=scontent.fbhk1-4.fna&oh=00_AfAinN1AAw-3keL7VjN3uHLat5qmfA5bkOWu37jpdho79w&oe=659D2E86" alt="">
+    </div>
+    </div>
+
+</body>
+</html>
